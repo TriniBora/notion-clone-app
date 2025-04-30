@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.trinibora.notioncloneapp"
     },
     "web": {
       "bundler": "metro",
@@ -23,6 +24,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "@prisma/react-native",
       "expo-router",
       [
         "expo-splash-screen",
